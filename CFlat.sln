@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFlat", "CFlat.csproj", "{369C32B0-54B8-4B26-B551-D3FAB04F9EB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFlat", "Src\CFlat.csproj", "{369C32B0-54B8-4B26-B551-D3FAB04F9EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4FCD8FAC-50CB-4D06-9BDE-0B082BE7962D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{369C32B0-54B8-4B26-B551-D3FAB04F9EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369C32B0-54B8-4B26-B551-D3FAB04F9EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369C32B0-54B8-4B26-B551-D3FAB04F9EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCD8FAC-50CB-4D06-9BDE-0B082BE7962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCD8FAC-50CB-4D06-9BDE-0B082BE7962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCD8FAC-50CB-4D06-9BDE-0B082BE7962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCD8FAC-50CB-4D06-9BDE-0B082BE7962D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
