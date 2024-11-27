@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+coveragereport/*.htm
+coveragereport/*.html
+coveragereport/*.js
+coveragereport/*.css
+coveragereport/*.svg
+!coveragereport/badge_methodcoverage.svg
