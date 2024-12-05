@@ -2,6 +2,10 @@ using System;
 
 namespace CFlat {
   public static class Math {
+    /// <summary>
+    /// Get the minimum 2^N that is greater than the given number b.
+    /// Can be overflowed to 0.
+    /// </summary>
     public static byte Ceiling2N(byte b) {
       if ((b & (b - 1)) > 0) {
         b |= (byte)(b >> 1);
@@ -14,6 +18,10 @@ namespace CFlat {
       }
     }
 
+    /// <summary>
+    /// Get the minimum 2^N that is greater than the given number s.
+    /// Can be overflowed to 0.
+    /// </summary>
     public static ushort Ceiling2N(ushort s) {
       if ((s & (s - 1)) > 0) {
         s |= (ushort)(s >> 1);
@@ -27,6 +35,10 @@ namespace CFlat {
       }
     }
 
+    /// <summary>
+    /// Get the minimum 2^N that is greater than the given number i.
+    /// Can be overflowed to 0.
+    /// </summary>
     public static uint Ceiling2N(uint i) {
       if ((i & (i - 1)) > 0) {
         i |= i >> 1;
@@ -41,6 +53,10 @@ namespace CFlat {
       }
     }
 
+    /// <summary>
+    /// Get the minimum 2^N that is greater than the given number ln.
+    /// Can be overflowed to 0.
+    /// </summary>
     public static ulong Ceiling2N(ulong ln) {
       if ((ln & (ln - 1)) > 0) {
         ln |= ln >> 1;
